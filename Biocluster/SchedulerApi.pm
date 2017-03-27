@@ -138,7 +138,7 @@ sub mailEnd {
     if (defined($clear)) {
         $self->{'mail'} = "";
     } else {
-        $self->{'mail'} = "--mail=END";
+        $self->{'mail'} = "--mail-type=END";
     }
 }
 
